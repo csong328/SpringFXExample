@@ -5,6 +5,6 @@ import java.util.List;
 import springfx.model.Contact;
 
 public interface DataAccessor extends AutoCloseable {
-    public List<Contact> loadData() ;
-    public void saveData(List<Contact> data);
+    List<Contact> loadData() ;
+    void saveData(List<Contact> data);
 }

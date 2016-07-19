@@ -1,6 +1,6 @@
 package springfx.model;
 
-public abstract class AbstractModel implements Model {
+abstract class AbstractModel implements Model {
 
     @Override
     public final Contact getCurrentContact() {

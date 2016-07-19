@@ -5,5 +5,5 @@ import javafx.fxml.Initializable;
 
 public interface EditorPresenter extends Initializable {
     @FXML
-    public void addUpdate();
+    void addUpdate();
 }
